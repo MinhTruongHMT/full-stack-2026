@@ -1,0 +1,43 @@
+# IDE specific files
+.idea/
+.eclipse/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.metadata
+.settings/
+.project
+.classpath
+
+# Build artifacts
+target/
+out/
+build/
+
+# Dependency directories
+node_modules/
+bower_components/
+lib/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+logs/
+*.log
+*.class
+*.swp
+*.tmp
+*~
+.#*
+
+# Environment and sensitive data files
+.env
+application.properties.example # Consider ignoring actual properties/yml files if they contain secrets, and use environment variables instead.
+secrets.yml
